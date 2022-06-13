@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 120.052 sec <<< FAILURE! - in TestSuite
+validateFlightRadioButtons(scripts.UnitedAirlinesTest)  Time elapsed: 5.452 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at scripts.UnitedAirlinesTest.validateFlightRadioButtons(UnitedAirlinesTest.java:49)
+
+validateBookingCheckBoxes(scripts.UnitedAirlinesTest)  Time elapsed: 3.496 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at scripts.UnitedAirlinesTest.validateBookingCheckBoxes(UnitedAirlinesTest.java:81)
+
+validateOneWayTicketSearchResults(scripts.UnitedAirlinesTest)  Time elapsed: 65.701 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAYCEES-YOGA', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\katel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ed1b43b9b196ba1803fd69be130d657
+	at scripts.UnitedAirlinesTest.validateOneWayTicketSearchResults(UnitedAirlinesTest.java:98)
+
+teardown(scripts.UnitedAirlinesTest)  Time elapsed: 80.943 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAYCEES-YOGA', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\katel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ed1b43b9b196ba1803fd69be130d657
+
